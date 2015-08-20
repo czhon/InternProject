@@ -1,0 +1,131 @@
+\hypertarget{class_calculation}{\section{Calculation Class Reference}
+\label{class_calculation}\index{Calculation@{Calculation}}
+}
+
+
+Class to read the extracted soft clipped sequence and start the M\+E\+R\+S function.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_calculation_ac643a00260d868a483b0967b0f81b9b6}{\hyperlink{class_calculation_ac643a00260d868a483b0967b0f81b9b6}{Calculation} ()}\label{class_calculation_ac643a00260d868a483b0967b0f81b9b6}
+
+\begin{DoxyCompactList}\small\item\em Constructor for the function. \end{DoxyCompactList}\item 
+void \hyperlink{class_calculation_a6f9e51d9bc8b04fd9ff2455614bd7fc8}{initialfunction} (\hyperlink{struct_softclip_inputted}{Softclip\+Inputted} $\ast$)
+\begin{DoxyCompactList}\small\item\em Destructor for the function. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_a21b7c230ad940da9f7183af5dca6e446}{void \hyperlink{class_calculation_a21b7c230ad940da9f7183af5dca6e446}{input\+M\+E\+R\+S} (string)}\label{class_calculation_a21b7c230ad940da9f7183af5dca6e446}
+
+\begin{DoxyCompactList}\small\item\em Function to input the M\+E\+R\+S obtain into the linked list. Old linked list is deleted before entering the new one. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_ad9034c3389ef6b83dd5562e0dd08a167}{void \hyperlink{class_calculation_ad9034c3389ef6b83dd5562e0dd08a167}{display\+M\+E\+R\+S} ()}\label{class_calculation_ad9034c3389ef6b83dd5562e0dd08a167}
+
+\begin{DoxyCompactList}\small\item\em Function not involved in main that is used to display the linked list for checking purpose only. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_a794fc2ed13f83130f6b745ade6e68150}{void \hyperlink{class_calculation_a794fc2ed13f83130f6b745ade6e68150}{acquire\+M\+E\+R\+S} (int)}\label{class_calculation_a794fc2ed13f83130f6b745ade6e68150}
+
+\begin{DoxyCompactList}\small\item\em Function used to select the highest occurring M\+E\+R\+S in the current run. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_a55bfeb221b209884e4e3ab43b724af50}{bool \hyperlink{class_calculation_a55bfeb221b209884e4e3ab43b724af50}{obtainprobability} ()}\label{class_calculation_a55bfeb221b209884e4e3ab43b724af50}
+
+\begin{DoxyCompactList}\small\item\em Function used to calculate the probability of the current M\+E\+R\+S. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_a972d493a71867cf09e54cb3e50b91733}{void \hyperlink{class_calculation_a972d493a71867cf09e54cb3e50b91733}{calculate\+S\+D} ()}\label{class_calculation_a972d493a71867cf09e54cb3e50b91733}
+
+\begin{DoxyCompactList}\small\item\em Function to calculate the standard deviation. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_a1e1b01d52bca9881fae807a5541641f8}{void \hyperlink{class_calculation_a1e1b01d52bca9881fae807a5541641f8}{Fextend\+M\+E\+R\+S} (\hyperlink{struct_softclip_inputted}{Softclip\+Inputted} $\ast$)}\label{class_calculation_a1e1b01d52bca9881fae807a5541641f8}
+
+\begin{DoxyCompactList}\small\item\em Function to extend the M\+E\+R\+S in forward direction. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_adb76143c550af00acd021286995a5b1a}{void \hyperlink{class_calculation_adb76143c550af00acd021286995a5b1a}{F\+Quality\+Control} (\hyperlink{struct_softclip_inputted}{Softclip\+Inputted} $\ast$)}\label{class_calculation_adb76143c550af00acd021286995a5b1a}
+
+\begin{DoxyCompactList}\small\item\em Function to determine whether the new temporarily obtained M\+E\+R\+S has a high enough probability. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_aabc390cfd0aaa0fece519d334f0ae3bb}{void \hyperlink{class_calculation_aabc390cfd0aaa0fece519d334f0ae3bb}{Bextend\+M\+E\+R\+S} (\hyperlink{struct_softclip_inputted}{Softclip\+Inputted} $\ast$)}\label{class_calculation_aabc390cfd0aaa0fece519d334f0ae3bb}
+
+\begin{DoxyCompactList}\small\item\em Function to extend the M\+E\+R\+S in backward direction. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_a38224881e5f16026c39dfa0c025cef2c}{void \hyperlink{class_calculation_a38224881e5f16026c39dfa0c025cef2c}{B\+Quality\+Control} (\hyperlink{struct_softclip_inputted}{Softclip\+Inputted} $\ast$)}\label{class_calculation_a38224881e5f16026c39dfa0c025cef2c}
+
+\begin{DoxyCompactList}\small\item\em Function to determine whether the new temporarily obtained M\+E\+R\+S has a high enough probability. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_a078817b0cdb3bab580d3b6e90078bcc8}{void \hyperlink{class_calculation_a078817b0cdb3bab580d3b6e90078bcc8}{output\+Result} ()}\label{class_calculation_a078817b0cdb3bab580d3b6e90078bcc8}
+
+\begin{DoxyCompactList}\small\item\em Function that used for checking, calling calculate standard deviation function and deleting the old linked list. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_af818953bc0ddeb5538aecde5ca57e57e}{void \hyperlink{class_calculation_af818953bc0ddeb5538aecde5ca57e57e}{deletelist} ()}\label{class_calculation_af818953bc0ddeb5538aecde5ca57e57e}
+
+\begin{DoxyCompactList}\small\item\em Function to delete the old linked list. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_a3c59be764baf8013038db0e8983ede19}{bool {\bfseries return\+Stop\+Probability} ()}\label{class_calculation_a3c59be764baf8013038db0e8983ede19}
+
+\item 
+\hypertarget{class_calculation_a0c272d6f1db6b9ffa32ef2a0c96cc37f}{bool {\bfseries return\+Stop\+Duplicate} ()}\label{class_calculation_a0c272d6f1db6b9ffa32ef2a0c96cc37f}
+
+\item 
+\hypertarget{class_calculation_add58de000cc9eed14fde3dfedfe9417d}{double {\bfseries return\+Probability} ()}\label{class_calculation_add58de000cc9eed14fde3dfedfe9417d}
+
+\item 
+\hypertarget{class_calculation_ac3113f77c5333c89ecf635dbf8c59821}{void \hyperlink{class_calculation_ac3113f77c5333c89ecf635dbf8c59821}{return\+M\+E\+R\+S} (string \&, string \&, string \&)}\label{class_calculation_ac3113f77c5333c89ecf635dbf8c59821}
+
+\begin{DoxyCompactList}\small\item\em Function to return the M\+E\+R\+S obtained. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_adaca33bdcb3c7f0a91ea6cbd58a569f6}{void \hyperlink{class_calculation_adaca33bdcb3c7f0a91ea6cbd58a569f6}{receive\+M\+E\+R\+S} (string \&, string \&, string \&)}\label{class_calculation_adaca33bdcb3c7f0a91ea6cbd58a569f6}
+
+\begin{DoxyCompactList}\small\item\em Function to read the M\+E\+R\+S obtained from main. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_a867b843b41f6fb286bd44d848ad0b4fe}{string {\bfseries return\+Whole\+M\+E\+R\+S} ()}\label{class_calculation_a867b843b41f6fb286bd44d848ad0b4fe}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_calculation_ac72f9615fea1fd73f14545ef42d4dc84}{\hyperlink{struct_m_e_r_sinputted}{M\+E\+R\+Sinputted} $\ast$ \hyperlink{class_calculation_ac72f9615fea1fd73f14545ef42d4dc84}{M\+E\+R\+S\+Head}}\label{class_calculation_ac72f9615fea1fd73f14545ef42d4dc84}
+
+\begin{DoxyCompactList}\small\item\em First linked list read for the M\+E\+R\+S constructed. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_a4ddb41c00a10f531c767a087ad4fc1ad}{int \hyperlink{class_calculation_a4ddb41c00a10f531c767a087ad4fc1ad}{M\+E\+R\+Slength}}\label{class_calculation_a4ddb41c00a10f531c767a087ad4fc1ad}
+
+\begin{DoxyCompactList}\small\item\em The length of M\+E\+R\+S that is going to be used. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_afa0facc958d03212c6aeda6b2e1f06fd}{int \hyperlink{class_calculation_afa0facc958d03212c6aeda6b2e1f06fd}{Found\+Position}}\label{class_calculation_afa0facc958d03212c6aeda6b2e1f06fd}
+
+\begin{DoxyCompactList}\small\item\em The reading position for the first character of the targeted M\+E\+R\+S. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_af0887aa70633f9b5ce6bf585cc9524af}{string \hyperlink{class_calculation_af0887aa70633f9b5ce6bf585cc9524af}{Six\+M\+E\+R\+S}}\label{class_calculation_af0887aa70633f9b5ce6bf585cc9524af}
+
+\begin{DoxyCompactList}\small\item\em Variable used to store the desired length of M\+E\+R\+S from the M\+E\+R\+S obtained. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_a37611e113711795d577189702d6aab4a}{string \hyperlink{class_calculation_a37611e113711795d577189702d6aab4a}{Whole\+M\+E\+R\+S}}\label{class_calculation_a37611e113711795d577189702d6aab4a}
+
+\begin{DoxyCompactList}\small\item\em Variable used to store the entire M\+E\+R\+S obtained. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_a9b53fe53209e035aeb3e9aa05b138abf}{string \hyperlink{class_calculation_a9b53fe53209e035aeb3e9aa05b138abf}{Temp\+M\+E\+R\+S}}\label{class_calculation_a9b53fe53209e035aeb3e9aa05b138abf}
+
+\begin{DoxyCompactList}\small\item\em Variable used to store the temporarily obtained M\+E\+R\+S that needs to be further confirmed. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_a5faa2d2f3373796f051223c11efe9473}{double \hyperlink{class_calculation_a5faa2d2f3373796f051223c11efe9473}{Probability}}\label{class_calculation_a5faa2d2f3373796f051223c11efe9473}
+
+\begin{DoxyCompactList}\small\item\em Variable used to store the probability of the current M\+E\+R\+S occurring. The frequency for four possible D\+N\+A bases is added by 1 to have a more accurate result. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_a23bf91c51fd0e2490264c59645ade570}{double \hyperlink{class_calculation_a23bf91c51fd0e2490264c59645ade570}{Highest\+Frequency}}\label{class_calculation_a23bf91c51fd0e2490264c59645ade570}
+
+\begin{DoxyCompactList}\small\item\em Variable used to store the Highest Frequency count of the current M\+E\+R\+S. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_a67c8ff4d4cd268f2f84edbe7cf807abd}{double \hyperlink{class_calculation_a67c8ff4d4cd268f2f84edbe7cf807abd}{Total\+Frequency}}\label{class_calculation_a67c8ff4d4cd268f2f84edbe7cf807abd}
+
+\begin{DoxyCompactList}\small\item\em Variable used to store the Total Frequency count of the current M\+E\+R\+S. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_aa00f7d8f605cf0209fed4e5fd37945ee}{double \hyperlink{class_calculation_aa00f7d8f605cf0209fed4e5fd37945ee}{Average\+Position}}\label{class_calculation_aa00f7d8f605cf0209fed4e5fd37945ee}
+
+\begin{DoxyCompactList}\small\item\em Variable used to store the Average Position of all the M\+E\+R\+S. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_a7cf0e33896b245321fa1aa42c94416a9}{double \hyperlink{class_calculation_a7cf0e33896b245321fa1aa42c94416a9}{Standard\+Deviation}}\label{class_calculation_a7cf0e33896b245321fa1aa42c94416a9}
+
+\begin{DoxyCompactList}\small\item\em Variable used to store the Standard Deviation for all the M\+E\+R\+S. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_a25a11b3eb81c66266495c05c4a3a1a23}{bool \hyperlink{class_calculation_a25a11b3eb81c66266495c05c4a3a1a23}{Stop\+Probability}}\label{class_calculation_a25a11b3eb81c66266495c05c4a3a1a23}
+
+\begin{DoxyCompactList}\small\item\em Variable used to stop the read of current M\+E\+R\+S if the probability goes too low. \end{DoxyCompactList}\item 
+\hypertarget{class_calculation_a1635c8cddc0c2f087cbbb657d156473a}{bool \hyperlink{class_calculation_a1635c8cddc0c2f087cbbb657d156473a}{Stop\+Duplicate}}\label{class_calculation_a1635c8cddc0c2f087cbbb657d156473a}
+
+\begin{DoxyCompactList}\small\item\em Variable used to stop the read of current M\+E\+R\+S if the M\+E\+R\+S appears more than twice in the soft clipped sequence. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class to read the extracted soft clipped sequence and start the M\+E\+R\+S function. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_calculation_a6f9e51d9bc8b04fd9ff2455614bd7fc8}{\index{Calculation@{Calculation}!initialfunction@{initialfunction}}
+\index{initialfunction@{initialfunction}!Calculation@{Calculation}}
+\subsubsection[{initialfunction}]{\setlength{\rightskip}{0pt plus 5cm}void Calculation\+::initialfunction (
+\begin{DoxyParamCaption}
+\item[{{\bf Softclip\+Inputted} $\ast$}]{head1}
+\end{DoxyParamCaption}
+)}}\label{class_calculation_a6f9e51d9bc8b04fd9ff2455614bd7fc8}
+
+
+Destructor for the function. 
+
+Method that used to obtain the base M\+E\+R\+S (default = 6) for the further extension. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/export/home/zhenghong/workspace/\+Testing/src/Testing.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,82 @@
+\hypertarget{class_input_s_e_q}{\section{Input\+S\+E\+Q Class Reference}
+\label{class_input_s_e_q}\index{Input\+S\+E\+Q@{Input\+S\+E\+Q}}
+}
+
+
+Class to input the aligned D\+N\+A base and extract the soft clipped sequence.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_input_s_e_q_a368958fdf80b93eb97d40bd8cd942d53}{\hyperlink{class_input_s_e_q_a368958fdf80b93eb97d40bd8cd942d53}{Input\+S\+E\+Q} ()}\label{class_input_s_e_q_a368958fdf80b93eb97d40bd8cd942d53}
+
+\begin{DoxyCompactList}\small\item\em Constructor for the \hyperlink{class_input_s_e_q}{Input\+S\+E\+Q}. \end{DoxyCompactList}\item 
+\hypertarget{class_input_s_e_q_a4816fecf30fc8cb65e1d2cf2f1ed4e12}{\hyperlink{class_input_s_e_q_a4816fecf30fc8cb65e1d2cf2f1ed4e12}{$\sim$\+Input\+S\+E\+Q} ()}\label{class_input_s_e_q_a4816fecf30fc8cb65e1d2cf2f1ed4e12}
+
+\begin{DoxyCompactList}\small\item\em Destructor for the \hyperlink{class_input_s_e_q}{Input\+S\+E\+Q}. \end{DoxyCompactList}\item 
+\hypertarget{class_input_s_e_q_a8e5de4382ed1a3ba85ab209f952d1993}{void \hyperlink{class_input_s_e_q_a8e5de4382ed1a3ba85ab209f952d1993}{input\+Data} (string, \hyperlink{struct_softclip_inputted}{Softclip\+Inputted} $\ast$\&)}\label{class_input_s_e_q_a8e5de4382ed1a3ba85ab209f952d1993}
+
+\begin{DoxyCompactList}\small\item\em Method to extract the C\+I\+G\+A\+R and sequence from the aligned S\+A\+M file. \end{DoxyCompactList}\item 
+\hypertarget{class_input_s_e_q_a1d157493d3f819c7f8ac4ecab835bfff}{void \hyperlink{class_input_s_e_q_a1d157493d3f819c7f8ac4ecab835bfff}{extract\+S\+E\+Qtarget} (bool \&)}\label{class_input_s_e_q_a1d157493d3f819c7f8ac4ecab835bfff}
+
+\begin{DoxyCompactList}\small\item\em Method to extract the soft clipped sequence. \end{DoxyCompactList}\item 
+\hypertarget{class_input_s_e_q_a5f8cd26f6acf9be5ae112eb8837bfe3f}{void \hyperlink{class_input_s_e_q_a5f8cd26f6acf9be5ae112eb8837bfe3f}{input\+Softclip} ()}\label{class_input_s_e_q_a5f8cd26f6acf9be5ae112eb8837bfe3f}
+
+\begin{DoxyCompactList}\small\item\em Method to store the soft clipped sequence into linked list. \end{DoxyCompactList}\item 
+\hypertarget{class_input_s_e_q_ab605f4a1972d6e019673d6c00df36263}{void \hyperlink{class_input_s_e_q_ab605f4a1972d6e019673d6c00df36263}{display\+S\+E\+Q} ()}\label{class_input_s_e_q_ab605f4a1972d6e019673d6c00df36263}
+
+\begin{DoxyCompactList}\small\item\em Method to display the linked list. Not involved in the main function as it only use for checking. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_input_s_e_q_a3b429d8245896c4ceff6d8f295bc135c}{\hyperlink{struct_softclip_inputted}{Softclip\+Inputted} $\ast$ \hyperlink{class_input_s_e_q_a3b429d8245896c4ceff6d8f295bc135c}{Softclipped\+Head}}\label{class_input_s_e_q_a3b429d8245896c4ceff6d8f295bc135c}
+
+\begin{DoxyCompactList}\small\item\em First read of linked list for the soft clipped D\+N\+A base sequence. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_input_s_e_q_a123b9b6960b953f33a9e4b31647b5643}{string \hyperlink{class_input_s_e_q_a123b9b6960b953f33a9e4b31647b5643}{Q\+N\+A\+M\+E}}\label{class_input_s_e_q_a123b9b6960b953f33a9e4b31647b5643}
+
+\begin{DoxyCompactList}\small\item\em Variable for Q\+N\+A\+M\+E that is removed as soon as the base is extracted. \end{DoxyCompactList}\item 
+\hypertarget{class_input_s_e_q_a88af1c310a8b38e97d38d931a729316a}{string \hyperlink{class_input_s_e_q_a88af1c310a8b38e97d38d931a729316a}{F\+L\+A\+G}}\label{class_input_s_e_q_a88af1c310a8b38e97d38d931a729316a}
+
+\begin{DoxyCompactList}\small\item\em Variable for F\+L\+A\+G that is removed as soon as the base is extracted. \end{DoxyCompactList}\item 
+\hypertarget{class_input_s_e_q_ac04f1790d5d8c51b18ee51562cdcb2d9}{string \hyperlink{class_input_s_e_q_ac04f1790d5d8c51b18ee51562cdcb2d9}{R\+N\+A\+M\+E}}\label{class_input_s_e_q_ac04f1790d5d8c51b18ee51562cdcb2d9}
+
+\begin{DoxyCompactList}\small\item\em Variable for R\+N\+A\+M\+E that is removed as soon as the base is extracted. \end{DoxyCompactList}\item 
+\hypertarget{class_input_s_e_q_a20b5d2aefb4507a7dcad1dba350cf9b2}{string \hyperlink{class_input_s_e_q_a20b5d2aefb4507a7dcad1dba350cf9b2}{P\+O\+S}}\label{class_input_s_e_q_a20b5d2aefb4507a7dcad1dba350cf9b2}
+
+\begin{DoxyCompactList}\small\item\em Variable for P\+O\+S that is removed as soon as the base is extracted. \end{DoxyCompactList}\item 
+\hypertarget{class_input_s_e_q_ae65a6c8ac95a3156f612606022b53697}{string \hyperlink{class_input_s_e_q_ae65a6c8ac95a3156f612606022b53697}{M\+A\+P\+Q}}\label{class_input_s_e_q_ae65a6c8ac95a3156f612606022b53697}
+
+\begin{DoxyCompactList}\small\item\em Variable for M\+A\+P\+Q that is removed as soon as the base is extracted. \end{DoxyCompactList}\item 
+\hypertarget{class_input_s_e_q_a1448053b2ed03c56ce6afbe332b1c2b5}{string \hyperlink{class_input_s_e_q_a1448053b2ed03c56ce6afbe332b1c2b5}{C\+I\+G\+A\+R}}\label{class_input_s_e_q_a1448053b2ed03c56ce6afbe332b1c2b5}
+
+\begin{DoxyCompactList}\small\item\em Variable for C\+I\+G\+A\+R that is extracted to obtain the soft clipped D\+N\+A sequence. \end{DoxyCompactList}\item 
+\hypertarget{class_input_s_e_q_a0445211fffd6a600e8727907cdc265fe}{string \hyperlink{class_input_s_e_q_a0445211fffd6a600e8727907cdc265fe}{R\+N\+E\+X\+T}}\label{class_input_s_e_q_a0445211fffd6a600e8727907cdc265fe}
+
+\begin{DoxyCompactList}\small\item\em Variable for R\+N\+E\+X\+T that is removed as soon as the base is extracted. \end{DoxyCompactList}\item 
+\hypertarget{class_input_s_e_q_a9b90ada9d5b5f2099885cbc7ec19958b}{string \hyperlink{class_input_s_e_q_a9b90ada9d5b5f2099885cbc7ec19958b}{P\+N\+E\+X\+T}}\label{class_input_s_e_q_a9b90ada9d5b5f2099885cbc7ec19958b}
+
+\begin{DoxyCompactList}\small\item\em Variable for P\+N\+E\+X\+T that is removed as soon as the base is extracted. \end{DoxyCompactList}\item 
+\hypertarget{class_input_s_e_q_aca16efae935330460ec6148d029adaf0}{string \hyperlink{class_input_s_e_q_aca16efae935330460ec6148d029adaf0}{T\+L\+E\+N}}\label{class_input_s_e_q_aca16efae935330460ec6148d029adaf0}
+
+\begin{DoxyCompactList}\small\item\em Variable for T\+L\+E\+N that is removed as soon as the base is extracted. \end{DoxyCompactList}\item 
+\hypertarget{class_input_s_e_q_a8c70ec94582170ba2c2e99df83105c4b}{string \hyperlink{class_input_s_e_q_a8c70ec94582170ba2c2e99df83105c4b}{S\+E\+Q}}\label{class_input_s_e_q_a8c70ec94582170ba2c2e99df83105c4b}
+
+\begin{DoxyCompactList}\small\item\em Variable for S\+E\+Q that is read and extracted to obtain the soft clipped D\+N\+A sequence. \end{DoxyCompactList}\item 
+\hypertarget{class_input_s_e_q_a5b604ab8af0e9aa20a684e007a50f537}{string \hyperlink{class_input_s_e_q_a5b604ab8af0e9aa20a684e007a50f537}{Q\+U\+A\+L}}\label{class_input_s_e_q_a5b604ab8af0e9aa20a684e007a50f537}
+
+\begin{DoxyCompactList}\small\item\em Variable for Q\+U\+A\+L that is removed as soon as the base is extracted. \end{DoxyCompactList}\item 
+\hypertarget{class_input_s_e_q_a69c43cbf03776745425777fd5d9bb202}{string \hyperlink{class_input_s_e_q_a69c43cbf03776745425777fd5d9bb202}{S\+E\+Qtarget}}\label{class_input_s_e_q_a69c43cbf03776745425777fd5d9bb202}
+
+\begin{DoxyCompactList}\small\item\em Variable to store the extracted soft clipped D\+N\+A sequence temporarily. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class to input the aligned D\+N\+A base and extract the soft clipped sequence. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/export/home/zhenghong/workspace/\+Testing/src/Testing.\+cpp\end{DoxyCompactItemize}
